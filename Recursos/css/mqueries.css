@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1024px){
+    .registra img{
+        width: 28%;
+    }
+    .plan-contenedor{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .f-info{
+        width: 90%;
+    }
+
+    .registra img{
+        width: 131px;
+    }
+
+    .ciudad .cuartos{
+        width: 22%;
+        margin-left: 2.5%;
+        
+    }
+
+    .cuartos p{
+        line-height: 30px;
+    }
+
+    .plan-contenedor{
+        width: 100%;
+    }
+
+    .politicas{
+        line-height: 30px;
+    }
+
+    .politicas::after{
+        background-color: black;
+    }
+
+    
+
+    footer .socios{
+        top: 49%;
+    }
+
+    footer .social-media{
+        top: 60%;
+        right: 15%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 1.4rem;
+    }
+    h2{
+        padding-top: 50px ;
+    }
+
+    nav{
+        width: 90%; 
+    }
+
+    .nav-principal a{
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    .caracteristicas{
+        text-align: center;
+    }
+
+    .caracteristicas i{
+        padding-top: 30px;
+    }
+
+    .f-contenedor li{
+        width: 50%;
+    }
+
+    .registra-contenedor p{
+        line-height: 30px;
+        width: 111%;
+        padding: 5px 0;
+    }
+
+    .registra img{
+        width: 118px;
+    }
+
+    .col h3{
+        margin-left: 9px;
+    }
+
+    .registra-contenedor a{
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .c-info p {
+        text-align: center;
+    }
+
+
+    .ciudad .cuartos{
+        width: 46%;
+        margin-left: 2%;
+
+    }
+
+    .plan-cuerpo p{
+        display: none;
+    }
+
+    .plan-cuerpo a{
+        margin: 0px auto;
+        margin-bottom: 10px;
+        padding: 0px 0px;
+    }
+
+    .modulo-plan{
+        width: 32%;
+        margin: 0px;
+    }
+    .plan-contenedor{
+        margin: 4px;
+    }
+    .c-info {
+        padding-top: 22px;
+    }
+
+    .plan-titulo{
+        margin-bottom: 0px;
+    }
+
+    .politicas{
+        width: 95%;
+    }
+
+    .politicas li{
+        padding-left: 5px;
+    }
+
+    .politicas::after{
+        display: none;
+    }
+
+    footer .socios{
+        left: 5%;
+
+    }
+
+    footer .social-media{
+        right: 5%;
+    }
+
+
+
+}
